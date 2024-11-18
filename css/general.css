@@ -1,7 +1,7 @@
 html {
     background-color: #e0ecf4;
-        margin-right: 3em;
-        margin-left: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
 }
 
 body {
@@ -22,25 +22,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
+
     background-color: #9ebcda;
     margin-top: -0.2em;
-    /* overflow: hidden; */
+
     padding-bottom: 2.5em;
     position: relative;
-    
-  
-    /* top: 20%;
-    left: 50%; */
-    /* margin: 0;
-    width: auto; */
+
 
 }
-/* .h1 {
-    position: relative;
-    z-index: 4;
-    text-align: center;
-} */
+
 
 header nav {
     background-color: #8856a7;
@@ -51,8 +42,7 @@ header nav {
 .headerimg {
     width: 15%;
     position: absolute;
-    /* top: 0;
-    left:0; */
+
     top: 30%;
     left: 42%;
     z-index: 3;
@@ -142,7 +132,7 @@ footer>img {
     header {
         position: relative;
         z-index: 1;
-        
+
     }
 
     .headerimg {
@@ -161,7 +151,7 @@ footer>img {
 
 @media only screen and (min-width: 591px) and (max-width: 790px) {
     html {
-        margin-right:0;
+        margin-right: 0;
         margin-left: 0;
 
     }
@@ -180,19 +170,22 @@ footer>img {
 
 }
 
-@media only screen  and (min-width: 791px) {
+/* @media only screen and (min-width: 791px) {
     .headerimg {
         width: 30%;
         position: absolute;
         top: 35%;
         left: 35%;
-    
+
     }
-}
+} */
 
 
 
 
 /**
 should contain font size and style for h1 for all webpages
-any other headings (h2 or h3, h4) should be different font than h1 
+any other headings (h2 or h3, h4) should be different font than h1
+
+/*to make design responsive: use a sans-serif font, a fint that is easy to read and easy to dintinguish between individual characters*/
+/*Think of generally smaller or larger font sizes on mobile phones. It takes time to recalculate every pixel value to the new base font size. This is where relative font sizes become useful. With em/rem sizing, you can change just the base font size for a specific viewport to decrease or increase all font sizes, while keeping proportions between the different styles*/
