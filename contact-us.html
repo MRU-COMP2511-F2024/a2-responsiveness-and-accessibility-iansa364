@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--validated-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="images/zaidmart-logo.ico">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/contactus.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="link home" title="home" href="Home.html">Home</a>
+            <a class="link shop" title="shop" href="shop.html" target="_blank">Shop</a>
+            <a class="link about" title="about-us" href="aboutus.html">About Us</a>
+            <a class="link contact" title="contact" href="contact-us.html">Contact Us</a>
+        </nav>
+        <img src="images/zaidmart-logo.ico" alt="logo" class="logo">
+        <img src="images/headerimg.png" alt="2 Green leave with the text: Eco-friendly" class="headerimg">
+        <h1>CONTACT US</h1>
+    </header>
+
+
+
+    <h2>Get In Touch With Us!</h2>
+    <form id="form-one" method="post" action="mailto:iansa364@mtroyal.ca">
+        <dl>
+            <div class="fname">
+                <dt>
+                    <label for="first-name">First Name*</label>
+                </dt>
+                <dd>
+                    <input id="first-name" name="fname" type="text" autofocus required>
+                </dd>
+            </div>
+            <div class="lname">
+                <dt>
+                    <label for="last-name">Last Name*</label>
+                </dt>
+                <dd>
+                    <input id="last-name" name="lname" type="text" required>
+                </dd>
+            </div>
+            <div class="email">
+                <dt>
+                    <label for="email">Email*</label>
+                </dt>
+                <dd>
+                    <input id="email" name="email" type="email" placeholder="person@gmail.com"
+                        pattern="[a-zA-Z0-9]+[a-z0-9._-]+\.[a-z]{2,}$" required>
+
+                </dd>
+            </div>
+            <div class="phone">
+                <dt>
+                    <label for="phone-number">Phone*</label>
+                </dt>
+                <dd>
+                    <input id="phone-number" name="phone" type="tel" placeholder="123-456-789"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <!--pattersn: 3 number within the range 0-9, followed by a dash, then again 3 number within the range 0-9 then 
+                        a dash and then 4 number within the range 0-9-->
+
+                </dd>
+            </div>
+            <div class="subject">
+                <dt>
+                    <label for="subject">Subject*</label>
+                </dt>
+                <dd>
+                    <input id="subject" name="subject" type="text" required>
+
+                </dd>
+            </div>
+
+            <div class="message">
+                <dt>
+                    <label for="message">Message*</label>
+                </dt>
+                <dd>
+                    <textarea id="message" name="message" cols="40" required></textarea>
+
+                </dd>
+            </div>
+        </dl>
+        <div class="controls">
+            <input id="submit" type="submit" value="Submit">
+            <input id="clear" type="reset" value="Clear">
+        </div>
+    </form>
+
+
+    <footer>
+        &copy;ZaidMart Inc. 2024
+        <img src="images/Instagram_icon.png" alt="Instagram logo">
+        <img src="images/tiktok_logo.png" alt="Tiktok Icon PNGs by Vecteezy">
+        <img src="images/facebook.logo.png" alt="Facebook, Public domain, via Wikimedia Commons">
+    </footer>
+</body>
+
+</html>
+
+
+<!--citations
+https://www.w3schools.com/tags/att_input_pattern.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel
+Used these websites for pattern-->

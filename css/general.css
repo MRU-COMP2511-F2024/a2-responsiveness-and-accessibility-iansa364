@@ -1,0 +1,198 @@
+html {
+    background-color: #e0ecf4;
+        margin-right: 3em;
+        margin-left: 3em;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
+    background-color: #e0ecf4;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 350%;
+    font-style: italic;
+    font-family: Verdana;
+    color: #8856a7;
+    border-radius: 0.06rem;
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    background-color: #9ebcda;
+    margin-top: -0.2em;
+    /* overflow: hidden; */
+    padding-bottom: 2.5em;
+    position: relative;
+    
+  
+    /* top: 20%;
+    left: 50%; */
+    /* margin: 0;
+    width: auto; */
+
+}
+/* .h1 {
+    position: relative;
+    z-index: 4;
+    text-align: center;
+} */
+
+header nav {
+    background-color: #8856a7;
+    margin-bottom: 0.7em;
+    padding: 0.2em;
+}
+
+.headerimg {
+    width: 15%;
+    position: absolute;
+    /* top: 0;
+    left:0; */
+    top: 30%;
+    left: 42%;
+    z-index: 3;
+}
+
+h2 {
+    color: #8856a7;
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #9ebcda;
+
+}
+
+.link {
+    padding: 0.8em;
+    border-radius: 1em;
+    background-color: #8856a7;
+    margin: 0.5em;
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
+}
+
+.logo {
+    position: absolute;
+    top: 0.5em;
+    left: 3.5em;
+    width: 3em;
+    align-content: center;
+}
+
+
+a:hover {
+    /*pseudo class selector*/
+    color: red
+}
+
+
+footer {
+    border-style: solid;
+    border-color: #9ebcda;
+    border-radius: 0.06em;
+    text-indent: 1%;
+    padding: 1em;
+    background-color: #9ebcda;
+    color: black;
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
+    margin-top: 3em;
+    margin-right: 0em;
+}
+
+footer>img {
+    float: right;
+    margin-top: -10px;
+    margin-right: 5px;
+    width: 35px;
+}
+
+/* 
+* for mobile */
+@media only screen and (max-width: 590px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin-top: 1em;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+
+    }
+
+    header {
+        position: relative;
+        z-index: 1;
+        
+    }
+
+    .headerimg {
+        width: 30%;
+        position: absolute;
+        top: 78%;
+        left: 35%;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 591px) and (max-width: 790px) {
+    html {
+        margin-right:0;
+        margin-left: 0;
+
+    }
+
+    .logo {
+        position: absolute;
+        left: 1%;
+    }
+
+    .headerimg {
+        width: 30%;
+        position: absolute;
+        top: 35%;
+        left: 34%;
+    }
+
+}
+
+@media only screen  and (min-width: 791px) {
+    .headerimg {
+        width: 30%;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    
+    }
+}
+
+
+
+
+/**
+should contain font size and style for h1 for all webpages
+any other headings (h2 or h3, h4) should be different font than h1 

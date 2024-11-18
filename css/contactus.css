@@ -1,0 +1,221 @@
+form,
+label {
+    /*contextual selector*/
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
+
+}
+
+div {
+    border: 2px;
+    border-style: solid;
+    border-color: #9ebcda;
+    border-radius: 0.3em;
+    padding: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
+
+}
+
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.3em;
+}
+
+div.fname {
+    grid-column: 1/2;
+    background-color: #9ebcda;
+    margin-bottom: 0.5em;
+    font-family: inherit;
+}
+
+div.lname {
+    grid-column: 2/3;
+    background-color: #9ebcda;
+    margin-bottom: 0.5em;
+    grid-column: 2/3
+}
+
+div.email {
+    grid-column: 1/2;
+    background-color: #9ebcda;
+    margin-bottom: 0.5em;
+}
+
+div.phone {
+    grid-column: 2/3;
+    background-color: #9ebcda;
+    margin-bottom: 0.5em;
+}
+
+div.subject {
+    grid-column: 1/3;
+    background-color: #9ebcda;
+    margin-bottom: 0.5em;
+}
+
+div.message {
+    grid-column: 1/3;
+    background-color: #9ebcda;
+    margin-bottom: 0.5em;
+}
+
+dd {
+    margin: 0;
+}
+
+
+input, select, textarea {
+    width: 75%; 
+    max-width: 100%; 
+    font-size: 1rem; 
+}
+
+
+#subject {
+    width: 35%;
+
+}
+
+textarea {
+    max-width: 500px; /*to limit the textarea from getting out of the block*/
+    max-height: auto;
+    margin: 0;
+}
+
+#submit,
+#clear {
+    grid-column: 1/2;
+    width: auto;
+
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    border: none;
+    width: auto;
+    padding: 0.2em;
+}
+
+.subject, .message {
+    grid-column: 1/3;
+    
+}
+[title="contact"] {
+    color:black;
+      
+}
+
+
+/* for mobile */
+@media only screen and (max-width: 590px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    dl {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 1em;
+    }
+
+    input, select {
+        width: 50%;
+        max-width: 100%;
+    }
+
+    textarea {
+        max-width: 250px;
+    }
+
+    #subject {
+        width: 62%;
+    }
+
+    #submit,
+    #clear {
+        width: 25%;
+    
+    }
+    div.fname, div.lname, div.email, div.phone, div.subject, div.message {
+        grid-column: 1/2;
+    }
+
+    }
+
+
+
+
+    @media only screen and (min-width: 591px) and (max-width: 790px) {
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    
+        dl {
+            grid-template-columns: 1fr, 1fr;
+            grid-gap: 1em; 
+        }
+    
+        input, select, textarea {
+            width: 90%; 
+            max-width: 100%; 
+            font-size: 1rem; 
+        }
+    
+        textarea {
+            max-width: 500px; 
+        }
+    
+        #subject {
+            width: 75%; 
+        }
+    
+        #submit,
+        #clear {
+            width: 60%; 
+            margin: 0 auto; 
+        }
+    
+        div.fname {
+            grid-column: 1/2; 
+        }
+        div.lname, div.phone {
+            grid-column: 2/3;
+        }
+
+        div.subject, div.message {
+            grid-column: 1/3;
+        }
+    
+        div {
+            padding: 1em; 
+        }
+
+        .controls {
+            display: flex;
+            justify-content: flex-end;
+            width: auto;
+        }
+
+        #submit,
+        #clear {
+            width: auto;
+            margin: 0;
+        
+        }
+
+
+    }
+
