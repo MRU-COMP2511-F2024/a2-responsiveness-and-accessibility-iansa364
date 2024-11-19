@@ -36,9 +36,10 @@
 }
 
 .statement p {
-    text-align: center;
+    text-align:center;
     margin-left: 3em;
     margin-right: 3em;
+    font-size: 1.2em;
 }
 
 .mission {
@@ -52,14 +53,14 @@
 }
 
 
-[title="about-us"] {
-    color:black;
-      
+.customer {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 1.4em;   
 }
 
-.customer {
-    text-align: center;
-    font-size: 120%;   
+.p1, .p2, .p3, .p4, .p5, .p6 {
+    font-size: 1.2em;;
 }
 
 
@@ -99,6 +100,15 @@
         grid-column: 1;
         grid-row: 2/3;
     }
+    .vision > h2 > p {
+        font-size: 2em;
+    }
+
+    nav {
+        font-size: 1.2em;
+    }
+
+
 
 }
 

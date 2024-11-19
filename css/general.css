@@ -2,20 +2,23 @@ html {
     background-color: #e0ecf4;
     margin-right: 3em;
     margin-left: 3em;
+  
 }
 
 body {
     font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
     background-color: #e0ecf4;
     margin: 0 auto;
+    
 }
 
 
 h1 {
+
     font-size: 350%;
     font-style: italic;
     font-family: Verdana;
-    color: #8856a7;
+    color: #513465;
     border-radius: 0.06rem;
     padding: 2em;
     text-align: center;
@@ -35,6 +38,7 @@ h1 {
 
 header nav {
     background-color: #8856a7;
+    /* background-color: #513465; */
     margin-bottom: 0.7em;
     padding: 0.2em;
 }
@@ -49,9 +53,11 @@ header nav {
 }
 
 h2 {
-    color: #8856a7;
-    font-family: 'Verdana';
+    font-size: 2em; 
+    color: #513465;
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
     text-align: center;
+    font-weight: bolder;
 }
 
 
@@ -63,9 +69,11 @@ nav {
 }
 
 .link {
+    
     padding: 0.8em;
     border-radius: 1em;
-    background-color: #8856a7;
+    color: rgb(227, 227, 227);
+    /* background-color: rgb(81, 52, 101); */
     margin: 0.5em;
     font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
 }
@@ -86,6 +94,7 @@ a:hover {
 
 
 footer {
+    /* font-size: 0.9em;  */
     border-style: solid;
     border-color: #9ebcda;
     border-radius: 0.06em;
@@ -111,6 +120,7 @@ footer>img {
     html {
         margin: 0;
         padding: 0;
+        
     }
 
     body {
@@ -119,8 +129,10 @@ footer>img {
     }
 
     h1 {
-        margin-top: 1em;
+        margin-top: 0.5em;
+        font-size: 3.5em;
     }
+
 
     nav {
         display: flex;
@@ -170,15 +182,6 @@ footer>img {
 
 }
 
-/* @media only screen and (min-width: 791px) {
-    .headerimg {
-        width: 30%;
-        position: absolute;
-        top: 35%;
-        left: 35%;
-
-    }
-} */
 
 
 

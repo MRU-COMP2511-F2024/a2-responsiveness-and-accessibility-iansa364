@@ -20,7 +20,7 @@ section {
 section>h2 {
   text-align: center;
   font-size: 225%;
-  color: #8856a7;
+  color:  #513465;
   
 }
 
@@ -59,10 +59,10 @@ section>h2 {
   
 }
 
-[title="home"] {
+/* [title="home"] {
   color:black;
     
-}
+} */
 
 /* for mobile */
 @media only screen and (max-width: 590px) { 
