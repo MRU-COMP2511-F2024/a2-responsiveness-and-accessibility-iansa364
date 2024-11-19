@@ -38,7 +38,6 @@ h1 {
 
 header nav {
     background-color: #8856a7;
-    /* background-color: #513465; */
     margin-bottom: 0.7em;
     padding: 0.2em;
 }
@@ -73,7 +72,6 @@ nav {
     padding: 0.8em;
     border-radius: 1em;
     color: rgb(227, 227, 227);
-    /* background-color: rgb(81, 52, 101); */
     margin: 0.5em;
     font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
 }
@@ -89,12 +87,15 @@ nav {
 
 a:hover {
     /*pseudo class selector*/
-    color: red
+    color: red;
+    outline:rgb(227, 227, 227)
 }
 
+a:focus, button:focus, input:focus textarea:focus{
+    outline: 3px solid orange; 
+}
 
 footer {
-    /* font-size: 0.9em;  */
     border-style: solid;
     border-color: #9ebcda;
     border-radius: 0.06em;
@@ -138,7 +139,7 @@ footer>img {
         display: flex;
         flex-direction: column;
         margin-bottom: 1em;
-
+        font-size: 1.2em;
     }
 
     header {
@@ -158,6 +159,8 @@ footer>img {
         position: absolute;
         left: 50%;
     }
+
+ 
 
 }
 
@@ -185,10 +188,3 @@ footer>img {
 
 
 
-
-/**
-should contain font size and style for h1 for all webpages
-any other headings (h2 or h3, h4) should be different font than h1
-
-/*to make design responsive: use a sans-serif font, a fint that is easy to read and easy to dintinguish between individual characters*/
-/*Think of generally smaller or larger font sizes on mobile phones. It takes time to recalculate every pixel value to the new base font size. This is where relative font sizes become useful. With em/rem sizing, you can change just the base font size for a specific viewport to decrease or increase all font sizes, while keeping proportions between the different styles*/

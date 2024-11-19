@@ -18,7 +18,7 @@
 }
 
 .container p {
-    font-family: Tahoma;
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
     line-height: 1.5;
     background-color: #9ebcda;
     padding: 2em;

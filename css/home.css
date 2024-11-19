@@ -38,31 +38,7 @@ section>h2 {
 
 }
 
-#form-one {
-  font-family: 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
-} 
 
-
-.first-name, .last-name, .email, .message{
-  background-color: #9ebcda;
-  padding: 1em;
-  margin: 0.5em 6.5em 0.5em 6.5em;
-}
-
-.first-name {
-  margin-top: 3em;
-}
-.submit {
-  margin: 0.5em 6.5em 3em 6.5em;
-  position: relative;
-  left: 60%;
-  
-}
-
-/* [title="home"] {
-  color:black;
-    
-} */
 
 /* for mobile */
 @media only screen and (max-width: 590px) { 

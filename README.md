@@ -12,7 +12,7 @@ https://docs.google.com/document/d/1FQ8_7J8ZwtUmNAGYCSjdGhZWqdfgW86C0wREJ9Q3grE/
     Text was hard to read on smaller devices due to fonts sizes only declared in the default css.
 
 3. Images:
-    Use of PNG and higher file size was resulting in the page loading slower.
+    Heavy file size was resulting in the page loading slower.
 
 
 # Issues identified with Automated analysis:
@@ -26,14 +26,10 @@ Design: My initial color and font size decisions focused more on aesthetics over
 
 Responsiveness: The use of absolute units such as px for images and text made the site less functional on smaller devices. I changed the units to responsive units such as em and percentages which makes it easier to adjust the font sizes to via media queries. It makes it easier because these units are relative to the the parent container which allows content to adjust fluidly.
 
-Webiste Load Time: Large image files led to the page loading slowly.
+Webiste Load Time: Large image files led to the page loading slowly. I optimized the images by reducing their file size to ensure faster loading of the page.
 
 
+# Gestalt Principles:
 
+The Gestalt principles we learned at the beginning of the semester emphasized visual clarity and harmony through the use of contrasting colors. By improving the contrast of my color combinations, the desgin was looking better than before and it also increased the accessibility of the website.
 
-
-
-
-
-Contrast and font connect with Gestalt principles
-in gestalt principles we discussec color and structure, having contrasting colors that are appealing and also accessible.
